@@ -1,0 +1,338 @@
+/*** DESKTOP ***/
+
+@media (min-width: 750px) {
+  /*** FORSIDE ***/
+
+  .grid_1_1 {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+
+  /*** Forsidetekst ***/
+
+  .forsidetekst {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+
+  #hero-video-home {
+    display: grid;
+    margin-top: 30px;
+    width: 71%;
+    scale: 1.5;
+  }
+
+  #hero-video-home-mobil {
+    display: none; /* Tilføjet basisstil */
+  }
+
+  .tegning {
+    display: grid;
+    justify-self: end;
+    width: 80%;
+    height: 80%;
+  }
+
+  /*** TIMELINE BILLEDER  ***/
+
+  .studiestart {
+    width: 60%;
+  }
+
+  .hjaelpid {
+    width: 45%;
+  }
+
+  .spil {
+    width: 55%;
+    margin-top: 5px;
+  }
+
+  .central {
+    width: 55%;
+  }
+
+  /*** OM MIG ***/
+
+  .ommigtekst {
+    font-family: Helvetica, sans-serif;
+    color: white;
+    justify-self: end;
+    align-self: center;
+    margin-right: 20px;
+    line-height: 1.7;
+    padding: 2%;
+    font-size: 1.2rem;
+  }
+
+  .portraet {
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-self: center;
+  }
+
+  .anmeld {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .anmeldtekst {
+    font-family: "Gochi Hand", "sans-serif";
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .anmeldh2 {
+    margin-top: 100px;
+    margin-left: 15px;
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .anmeldh3 {
+    margin-bottom: 60px;
+    margin-left: 15px;
+    text-align: center;
+  }
+
+  .grid_1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+  }
+
+  /*** STUDIE CV ***/
+
+  .grid_1_1_1_ingen_rows {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+  }
+
+  .pdf {
+    display: block;
+    margin: auto;
+    width: 1080px;
+    height: 5400px;
+  }
+
+  .pdfmobil {
+    display: none;
+  }
+
+  .stjerner {
+    display: block;
+    text-align: center;
+  }
+
+  .cv {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 50px;
+  }
+
+  .cvp {
+    line-height: 1.5;
+  }
+
+  .photoshop2 {
+    width: 440px;
+    height: 620px;
+  }
+
+  .pdf1 {
+    width: 700px;
+    height: 520px;
+  }
+
+  .pdf2 {
+    width: 440px;
+    height: 620px;
+    border: none;
+  }
+
+  /*** PROCES - COMPUTERSITE ***/
+
+  .pc {
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding: 0;
+  }
+
+  .ppc {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 65ch;
+    word-wrap: break-word;
+    line-height: 1.4;
+  }
+
+  /*** PROCES - EMNESITE ***/
+
+  .mindmap {
+    width: 100%;
+    object-fit: contain;
+    height: 550px;
+  }
+
+  .papir {
+    margin-left: 50px;
+  }
+
+  .moodboard {
+    width: 50%;
+  }
+
+  /*** PROCES - SPIL ***/
+
+  .aktivitetsdiagram {
+    width: 90%;
+  }
+
+  .statemachinediagram {
+    width: 90%;
+  }
+
+  .userstories {
+    width: 30%;
+  }
+
+  /*** SPIL - GALLERI ***/
+
+  .grid_1_1_1 div {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .række1,
+  .række2,
+  .række3,
+  .række4,
+  .række5,
+  .række6 {
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+    height: 170px;
+  }
+
+  .række1 {
+    width: 100%;
+    height: 300px;
+    display: block;
+  }
+
+  .række2 {
+    width: 35%;
+  }
+
+  .række3 {
+    width: 80%;
+    height: 400px;
+    padding: 1%;
+  }
+
+  .række4 {
+    width: 70%;
+    height: 300px;
+    padding: 5%;
+  }
+
+  .række5 {
+    width: 90%;
+    height: 400px;
+    padding-bottom: 5%;
+  }
+
+  .række6 {
+    height: 400px;
+    width: 90%;
+  }
+
+  /*** PROCES - PASSIONSSITE ***/
+
+  .ppassion {
+    line-height: 1.4;
+    font-size: 20px;
+    max-width: 65ch;
+    word-wrap: break-word;
+  }
+
+  .inner-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /*** PROCES - VIRKSOMHEDSSITE ***/
+
+  .moodboardchc {
+    display: grid;
+    width: 99%;
+    gap: 10px;
+  }
+
+  .styletilechc {
+    display: grid;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .kaffe {
+    width: 50%;
+    margin-left: 180px;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .h2virk {
+    margin-top: 37px;
+    margin-bottom: 20px;
+  }
+
+  .virkimg {
+    width: 70%;
+  }
+
+  .lottiefile {
+    width: 80%;
+    margin: 0;
+  }
+
+  .virk {
+    display: none;
+  }
+
+  .lotte {
+    display: none;
+  }
+
+  .lotti {
+    display: none;
+  }
+  .iframe {
+    border: none;
+    width: 800px;
+    height: 500px;
+  }
+}
